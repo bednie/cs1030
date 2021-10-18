@@ -1,3 +1,5 @@
+from os.path import exists
+
 sum_of_integers = 0 
 number_of_integers = 0 
 average_of_integers = 0
@@ -13,10 +15,11 @@ or press Enter to open 'LotsOfNumbers.txt':
 )
 
 # check that file exists, and open file
-if os.path.exists(user_filename):
+if exists(user_filename):
     # TODO create file object with user_filename
     print(user_filename + ' exists')
-elif user_filename == "" and user_filename.exists('LotsOfNumbers.txt'):
+
+elif user_filename == "" and exists('LotsOfNumbers.txt'):
     print('LotsOfNumbers.txt exists')
     # TODO create file object with LotsOfNumbers.txt 
 
