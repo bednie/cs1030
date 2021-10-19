@@ -9,7 +9,7 @@ list_of_integers = []
 user_filename = input("""
 Enter the filename of your file
 (file must be in same directory as program), 
-or press Enter to open 'LotsOfNumbers.txt':  
+or press Enter to open the default file 'LotsOfNumbers.txt':  
 """)
 
 # check that file exists, and open file
