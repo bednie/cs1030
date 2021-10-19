@@ -6,33 +6,29 @@ average_of_integers = 0
 list_of_integers = []
 
 # get filename from user
-user_filename = input(
-"""
+user_filename = input("""
 Enter the filename of your file
 (file must be in same directory as program), 
 or press Enter to open 'LotsOfNumbers.txt':  
-"""
-)
+""")
 
 # check that file exists, and open file
 if exists(user_filename):
-    # TODO create file object with user_filename
-    print(user_filename + ' exists')
+    pass
 
 elif user_filename == "" and exists('LotsOfNumbers.txt'):
-    print('LotsOfNumbers.txt exists')
     user_filename = 'LotsOfNumbers.txt'
 
 else:
-    print('File not found. Please run the program again.')
+    print("""
+File not found. Make sure the file is in the same 
+folder as this program and run the program again.
+""")
 
-# read file content into variables    
-
+# read file content into list of integers
 file = open(user_filename, 'r')
 for line in file:
-    #print(line.strip())
     list_of_integers.append(int(line.strip()))
-    print(list_of_integers)
 
 # calculate sum, average, and count of integers in file
 number_of_integers = len(list_of_integers)
