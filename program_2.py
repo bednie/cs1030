@@ -29,6 +29,7 @@ folder as this program and run the program again.
 file = open(user_filename, 'r')
 for line in file:
     list_of_integers.append(int(line.strip()))
+file.close()    
 
 # calculate sum, average, and count of integers in file
 number_of_integers = len(list_of_integers)
