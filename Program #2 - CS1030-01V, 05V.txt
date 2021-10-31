@@ -1,0 +1,21 @@
+In the Files section is a Folder named PROGRAM2, and the file is named LotsOfNumbers.txt. It contains lots of integers, how many? That's for you to find out.
+
+Assume the file is "clean data", meaning there are no negative numbers, no alphabetic characters, only digits. 
+
+Write a program to determine 
+1) how many integers in the file 
+2) the sum total of all the integers
+3) average of all the integers
+
+Write these three values, one on each line with an appropriate description to a text file named "Program2.out"
+
+Zip your python program and the output file together then submit on Canvas no later than Sunday, Oct 23.
+
+Notes: Make sure your python program and the LotsOfNumbers.txt are in the same folder/directory when you run the program.
+
+Grading:
+10 Correct input and output file handling
+10 Correct calculations for counting integers, sum total and the average
+
+Extra Credit + 5 points
+Instead of hard-coding the file name LotsOfNumbers.txt, ask the user for the file name. If you take this approach, make sure you check that the file exists! 
