@@ -18,7 +18,7 @@ def Check_User_Input():
         user_input = input("""\nWhat color is that square on a chess board?\n
 Enter a square's coordinates to find out if it is black or white, 
 or press Enter to exit.\n
-Input must be one letter a-h and one number 1-8 (for example j5 or a6):""").lower()
+Input must be one letter a-h and one number 1-8 (for example h5 or a6):""").lower()
 
         if user_input == "": # User can press Enter key to exit program
             print('\nExiting program. Byebye.\n')
