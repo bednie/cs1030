@@ -47,6 +47,7 @@ Input must be one letter a-h and one number 1-8 (for example j5 or a6):""").lowe
                 print('You entered "' + user_input + '". Make sure the number is an integer between 1 and 8. Try again.') 
                 print('Exiting program. Byebye.\n')
                 exit()
+                
     return user_input
 
 
