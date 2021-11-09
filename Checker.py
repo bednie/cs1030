@@ -50,7 +50,6 @@ Input must be one letter a-h and one number 1-8 (for example h5 or a6):""").lowe
                 
     return user_input
 
-
 def Get_Square_Color(uinput):
 
     # Determine if the square follows the pattern for black-even/white-odd or vice versa.
