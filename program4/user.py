@@ -9,7 +9,7 @@ class User:
         self.userEmail = userEmail
         self.userPhoneNumber = userPhoneNumber
 
-    # Print attributes of User
+    # Print summary of attributes of User
     def DescribeUser(self):
         print("First Name: " + self.firstName + "\n" +
                 "Last Name: "+ self.lastName + "\n" +
@@ -17,8 +17,7 @@ class User:
                 "Phone Number: "+ self.userPhoneNumber + "\n" +
                 "Email Address: "+ self.userEmail + "\n")
 
-    # Getters and setters below:
-
+    # Setters and getters below:
     def getFirstName(self):
         return self.firstName
 
@@ -48,10 +47,5 @@ class User:
 
     def setUserPhoneNumber(self, newUserPhoneNumber):
         self.userPhoneNumber = newUserPhoneNumber
-
-
-b = User("b", "e", "123", "b@e.com","9999999999")
-
-b.DescribeUser()
 
 
